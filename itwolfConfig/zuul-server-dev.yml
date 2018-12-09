@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    order-service:
+      path: /api-order/**
+      serviceId: order-service
+    member-service:
+      path: /api-member/**
+      serviceId: member-service
+    pay-service:
+      path: /api-pay/**
+      serviceId: appConfig
